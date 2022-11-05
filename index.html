@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./portfolio.css">
+  <script src="https://kit.fontawesome.com/2edafc8589.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <nav style="height:100px" class="navbar navbar-dark bg-dark fixed-top ">
+    <div class="container-fluid">
+      <h1 class="text-success ps-5">Jacob Alias</h1>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+        aria-controls="offcanvasDarkNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+        aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">About Me</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#">Profile</a>
+              <a class="nav-link active" aria-current="page" href="#">Education</a>
+              <a class="nav-link active" aria-current="page" href="#">Projects</a>
+              <a class="nav-link active" aria-current="page" href="#">Skills</a>
+              <a class="nav-link active" aria-current="page" href="#">Awards</a>
+
+            </li>
+          </ul>
+          <form class="d-flex mt-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div id="a1">
+    <h3>Profile</h3>
+    <p id="a2">To seek and maintain a full time position that offers professional challenges utilizing interpersonal
+      skills
+      ,excellent time management and problem-solving skills. Organized and dependable candidate successful at managing
+      multiple priorities with a positive attitude. Willingness to take on added responsibilities to meet team goals.
+    </p>
+    <h3>Education</h3>
+  </div>
+  <div style="margin-top:15px" class="accordion pt-5 container-fluid " id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+          aria-expanded="true" aria-controls="collapseOne">
+          Full Stack Web Developement (present)
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          Pursuing a 5-month course on Full Stack Web Development with Angular and React
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+          aria-expanded="true" aria-controls="collapseOne">
+          Bachelor of Technology (2018-22)
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          Pursued a bachelor's in electronics and communication from the Adi Shankara Institute of Engineering and
+          Technology in Kalady under APJ Abdul Kalam Technological University with a 7.1 CGPA.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+          aria-expanded="false" aria-controls="collapseTwo">
+          Higher Secondary (2016-18)
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          Higher secondary education in the science stream was done at St. Joseph's Higher Secondary School, Karukutty,
+          with 87.75%
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          High School (2015-16)
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          Completed high school at De Paul English Medium Higher Secondary School Angamaly with 98%
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <h3 class="ms-4 mt-3">Projects</h3>
+  </div>
+  <div class="card-group ms-4 me-4 mt-4 border border-3 rounded-2">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title">Main Project</h4>
+        <p class="card-text fs-5">Real Time Air Quality Monitoring and Controlling using Machine Learning</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title">Design Project</h4>
+        <p class="card-text fs-5">Energy Tiles</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title">Micro Project</h4>
+        <p class="card-text fs-5">Automatic Headlight Dimmer</p>
+      </div>
+    </div>
+  </div>
+  <div>
+    <h3 class="ms-4 mt-4">Skills</h3>
+  </div>
+  <div>
+    <h6 class="ms-4 mt-4">JavaScript</h6>
+  </div>
+  <div class="progress ms-4 mt-3 me-4">
+    <div class="progress-bar bg-success" role="progressbar" aria-label="Success example" style="width:20%"
+      aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+  </div>
+  <div>
+    <h6 class="ms-4 mt-4">HTML</h6>
+  </div>
+  <div class="progress ms-4 mt-3 me-4">
+    <div class="progress-bar bg-info" role="progressbar" aria-label="Info example" style="width: 70%" aria-valuenow="70"
+      aria-valuemin="0" aria-valuemax="100"></div>
+  </div>
+  <div>
+    <h6 class="ms-4 mt-4">CSS,Bootstrap</h6>
+  </div>
+  <div class="progress ms-4 mt-3 me-4">
+    <div class="progress-bar bg-warning" role="progressbar" aria-label="Warning example" style="width: 65%"
+      aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+  </div>
+  <div>
+    <h6 class="ms-4 mt-4">Communication,Team work</h6>
+  </div>
+  <div class="progress ms-4 mt-3 me-4">
+    <div class="progress-bar bg-danger" role="progressbar" aria-label="Danger example" style="width: 90%"
+      aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+  </div>
+  <div class="card ms-4 mt-5 border border-danger" style="width: 35rem;">
+    <div class="card-body">
+      <h3 class="card-title">Awards</h3>
+      <p class="card-text fs-4">Department-level winner of the IEDC Micro Project Challenge for the project Automatic
+        headlight dimmer.</p>
+      <a href="#" class="btn btn-primary">View More</a>
+
+    </div>
+  </div>
+  <div class="card  mt-5 text-bg-dark">
+    <div class="card-body">
+      <p class="card-text fa-solid fa-phone ms-4 mt-4">&nbsp;&nbsp;&nbsp;&nbsp;+917592838279</p><br>
+      <p class="card-text fa-solid fa-envelope ms-4">&nbsp;&nbsp;&nbsp;&nbsp;jacobalias18@gmail.com</p><br>
+      <p class="card-text fa-solid fa-location-dot ms-4">&nbsp;&nbsp;&nbsp;&nbsp;Mookkannoor,&nbsp;&nbsp;Ernakulam</p>
+      <br>
+      <p class="card-text fa-brands fa-linkedin ms-4">&nbsp;&nbsp;&nbsp;&nbsp;jacob alias</p>
+
+
+    </div>
+  </div>
+</body>
+
+</html>
